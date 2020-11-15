@@ -1,49 +1,27 @@
 
-<mat-drawer-container class="example-container" autosize>
-   
-    <mat-drawer #drawer class="example-sidenav" mode="side">
-      
-       <div class="container-Menu">
-        <span class="title-menu">menu Invoice</span>
-        <button mat-stroked-button color="primary" class="option-menu">
-          <a href="Product">Product</a>
-        </button>
-        <button mat-stroked-button color="primary" class="option-menu">
-          <a href="Client">Client</a>
-          </button>
-        <button mat-stroked-button color="primary" class="option-menu">
-          <a href="Home">Home</a>
-          </button>
-        <button mat-stroked-button color="primary" class="option-menu">
-          <a href="Purchase">Purchase</a>
-          Invoice</button>
-       </div>
-            
-         
-    </mat-drawer>
-  
     <div class="example-sidenav-content">
-        <mat-toolbar color="primary">
-   
-            <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-                <button  (click)="drawer.toggle()"   mat-icon-button>
-                     <mat-icon>more_vert</mat-icon>
-                  </button>
-                 
-            </button>
-            <span>My App</span>
-            <span class="example-spacer"></span>
-            
-            <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-              <mat-icon>favorite</mat-icon>
-            </button>
-            <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-              <mat-icon>share</mat-icon>
-            </button>
-          </mat-toolbar>
+      <mat-toolbar color="primary">
+        <button   class="example-icon"  mat-icon-button>
+          <mat-icon>more_vert</mat-icon>
+        </button>
+        <span class="titleApp">My App</span>
+        <span class="example-spacer"></span>
+        <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+          <mat-icon>favorite</mat-icon>
+        </button>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+          <mat-icon>share</mat-icon>
+        </button>
+      </mat-toolbar>
     </div>
+    <div class="container-Menu">
+        <a routerLink="Pay"  class="option-menu"> To Pay</a>
+        <a routerLink="Client"  class="option-menu">Clients</a>
+        <a routerLink="Product"  class="option-menu">Products</a>
+        <a routerLink="Purchase"  class="option-menu">Purchase</a>
+        <a routerLink="Invoice"  class="option-menu">Invoice</a>
+     </div>
   
-  </mat-drawer-container>
-
+  
 
  

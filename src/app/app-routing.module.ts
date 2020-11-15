@@ -8,8 +8,8 @@ import {AppComponent} from './app.component'
 const routes: Routes = [
 {path: 'Product', component: ProductComponent},
 {path: 'Client', component: ClientComponent},
-{path: 'Home', component: HomeComponent},
-
+{path: 'Pay', component: HomeComponent},
+{path: 'Purchase', component: HomeComponent},
 {path: '**', pathMatch: 'full', redirectTo: 'Home'},
 ];
 

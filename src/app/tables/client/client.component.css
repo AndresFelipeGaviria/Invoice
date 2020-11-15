@@ -6,3 +6,21 @@
   table {
     width: 100%;
   }
+  .titleTableClients {
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+  .informationInputs{
+    font-weight: 400;
+    font-size: 11px;
+    margin-top: -10px;
+  }
+  .containerTitle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .containerInputs {
+    display: flex;
+    justify-content: space-evenly;
+  }
